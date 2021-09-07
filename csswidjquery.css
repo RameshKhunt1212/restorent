@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("computer2.jpg");
+	background-color: pink;
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	height: 100vh;
+}
+h3{
+
+	font-family: serif;
+	color:#0040FF;
+	font-weight: bold;
+	margin: 15px;
+	padding: 15px;
+	background-color:#9F81F7;
+	border-radius: 10px;
+	text-align:center;
+
+}
+.menubar{
+	background-color: #A9A9F5;
+	text-align: center;
+}
+.menubar ul{
+	display: inline-flex;
+	list-style-type: none;
+	color: #fff;
+	transition: 0.6s ease;
+}
+.menubar ul li{
+	margin: 15px;
+	padding: 15px;
+	width: 200px;
+	
+}
+.menubar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+ .menubar ul li:hover{
+	background-color: #9F81F7;
+	
+	border-radius: 3px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menubar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background-color: #A9A9F5;
+	margin-top: 20px;
+	margin-left: -30px;
+} 
+.menubar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menubar ul li:hover .sub-menu-1 ul li{
+	width: 180px;
+	padding: 8px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: center;
+}
+.menubar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menubar ul li:hover .sub-menu-1 ul li a:hover{
+	color: pink;
+}
+.title{
+	position: absolute;
+	font-family: serif;
+	color: #336699;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: underline overline;
+	top: 35%;
+	left: 60%;
+	font-size: 30px;
+	text-align:left;
+	background-color: #F3E5F5;
+
+}
+form{
+	background-color:#336699 ;
+	padding: 20px;
+	font-size: 20px;
+	height: 300px;
+	width: 400px;
+	border: 8px double black;
+	position: absolute;
+	top: 45%;
+	left: 60%;
+	text-align: center;
+}
+
+#sub{
+	font-size:20px;
+	border-radius: 3px;
+}
+#thought{
+	position: absolute;
+	top: 85%;
+	left: 5%;
+	background-color:#A9A9F5;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+
+	border-radius: 10px;
+	color: #0431B4; 
+}

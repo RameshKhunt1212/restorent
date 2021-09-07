@@ -1,0 +1,80 @@
+nav{
+	
+	width: 100%;
+	background:#ccccff;
+	opacity: 0.8;
+	border-radius: 10px;
+
+}
+nav a{
+	
+	left: 30%;
+	padding: 10px;
+	
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("c1.png");
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	height: 100vh;
+	background-color: #99ebff;
+}
+.title{
+	font-family: sans-serif;
+	position: relative;
+	padding:15px 5px 5px 5px;
+	margin: 5px;
+	color: #5900b3;
+	font-size: 50px;
+	background-color: #ccccff;
+	text-align: center;
+	font-style: inherit;
+	text-decoration:  underline overline;
+	top: 3%;
+	border-radius: 10px;
+	width: 500px;
+}
+h2{
+	color:#5900b3 ;
+	background-color: #ccccff;
+	width: 500px;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+h4{
+	color:#5900b3 ;
+	background-color: #ccccff;
+	width: 500px;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+#box{
+	font-size: 25px;
+	font-style: initial;
+	top: 10%;
+	position: relative;
+	margin: 20px;
+	color:#ccccff ;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	height: auto;
+	width: 80%;
+	
+}
+#box1{
+	font-size: 25px;
+	font-style: initial;
+	top: 15%;
+	position: relative;
+	margin: 20px;
+	color:#ccccff ;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	height: auto;
+	width: 80%;
+
+}

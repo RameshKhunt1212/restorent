@@ -1,0 +1,86 @@
+
+nav{
+	background-color: pink;
+	background-size: cover;
+	height: 30px;
+	position: relative;
+	opacity: 0.8;
+	width: 1550px;
+
+
+}
+
+
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("p2.jpg");
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	height: 100vh;
+	background-color: #99ebff;
+
+}
+#title{
+	font-size: 40px;
+	color: blue;
+	background-size: cover;
+	text-shadow: 2px 2px 8px #FF0000;
+	background-color: pink;
+	position: absolute;
+	opacity: 0.8;
+	text-align: left;
+	top: 8%;
+	padding: 10px;
+	width: 1500px;
+
+}
+#box{
+top: 20%;
+position: absolute;
+text-align: left;
+height: 350px;
+width: 1450px;
+background-color: pink;
+padding :20px;
+font-size: 25px;
+opacity: 0.7;
+}
+
+.box1 img{
+	
+	position: absolute;
+	width: 350px;
+	height: auto;
+	top: 72%;
+	
+	
+}
+.box2 img{
+	
+	position: absolute;
+	width: 350px;
+	height: auto;
+	top: 72%;
+	left: 50%;
+	
+}
+.box3 img{
+	
+	position: absolute;
+	width: 230px;
+	height: auto;
+	top: 72%;
+	left: 30%;
+	
+	
+}
+a{
+	background-color: white;
+	top: 1%;
+	position: absolute;
+	left: 1.5%;
+	padding: 3px;
+}
+

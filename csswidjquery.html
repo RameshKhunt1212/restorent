@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdownmenu in css</title>
+	<link rel="stylesheet" type="text/css" href="csswidjquery.css">
+</head>
+<body>
+   <div class="menubar">
+	<ul>
+		<h3>Aspire Multimedia & Design..</h3>
+		
+	<li><a href="#"> Graphic Desinging </a>
+		<div class="sub-menu-1">
+			<ul>
+				<li><a href="h1.html">Illustrater</a></li>
+				<li><a href="h2.html">Photoshop</a></li>
+				<li><a href="h3.html">Coreldraw</a></li>
+				<li><a href="h4.html">Video-Editing</a></li>
+			</ul>
+			</div></li>
+	<li><a href="#">Web Designing</a>
+	<div class="sub-menu-1">
+			<ul>
+				<li><a href="p1.html">Html</a></li>
+				<li><a href="p2.html">Css</a></li>
+				<li><a href="p3.html">Java Script</a></li>
+				<li><a href="p4.html">Jquery</a></li>
+			</ul>
+			</div></li>
+	<li><a href="#">Web Development</a>
+	<div class="sub-menu-1">
+			<ul>
+				<li><a href="f1.html">C Programing </a></li>
+				<li><a href="f2.html">C++</a></li>
+				<li><a href="f3.html">PHP</a></li>
+				<li><a href="f4.html">Co-ordinator</a></li>
+			</ul>
+			</div></li>
+	<li><a href="#">Digital Marketing</a>
+	<div class="sub-menu-1">
+			<ul>
+				<li><a href="s1.html">Social Media</a></li>
+				<li><a href="s2.html">World Press</a></li>
+				
+			</ul>
+			</div></li>
+	
+</ul>
+</div>
+<div class="title">
+<h2>ADMISSION FORM</h2></div>
+<form>
+		<label>Name:</label>
+		<input type="text" id="fname"><br><br>
+
+		<label>Father Name:</label>
+		<input type="text" id="fath"><br><br>
+
+		<label>Stander:</label>
+		<input type="text" id="std"><br><br>
+
+
+
+		<label>Birthdate:</label>
+		<input type="date" id="birth"><br><br>
+
+
+		<label>Course:</label>
+		<select value="" id="option"><br><br>
+
+		<option>Graphic Desiging</option>
+		<option>Web Desiging</option>
+		<option>Web Development</option>
+		<option>Digital Marcketing</option>
+
+		</select><br><br>
+		<button id="sub">submit</button>
+
+	</form>
+	<div id="thought">
+	<h2 >The earlier you start working on something,
+	 the earlier you will see results.</h2></div>
+
+		<script src="jquery.js"></script>
+
+	<script >
+		$(document).ready(function(){
+			$("body").keypress(function(){
+				$("body").css("background-color","blue");
+			});
+		});
+
+		$(document).ready(function(){
+			$("body").keyup(function(){
+				$("body").css("background-color","pink");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#fname,#pass,#fath,#std,#birth,#option").focus(function(){
+				$(this).css("background-color","orange");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#fname,#pass,#fath,#std,#birth,#option").blur(function(){
+				$(this).css("background-color","");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#option,#std").change(function(){
+				$(this).css("background-color","pink");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#fname,#pass").select(function(){
+				$(this).css("background-color","red");
+			});
+		});
+
+		$(document).ready(function(){
+			$("form").submit(function(){
+				alert("Form submit");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#sub").click(function(){
+				$("#sub").css("background-color","yellow")
+			});
+		});
+
+		$(document).ready(function(){
+			$("#sub").mouseenter(function(){
+				$("#sub").css("background-color","orange")
+			});
+		});
+	</script>
+</body>
+</html>
